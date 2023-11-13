@@ -1,0 +1,26 @@
+HTTP GET   /login
+request
+{
+username : "nicat",
+password : "nicat2002"
+}
+response
+{
+token : "jwtToken",
+profilePhoto : "nicat123.jpg",
+"fullname" : "Nicat Rahimov"
+}
+
+HTTP POST /register
+
+request
+{
+username:"nicatrahimov",
+"name": "Nicat",
+"surname": "Rahimov",
+"image": "multipartfile.jpg",
+"email",
+"phone"
+}
+response
+HTTP CREATED 201

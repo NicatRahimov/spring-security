@@ -1,0 +1,36 @@
+HTTP POST /task
+
+request
+{
+"name" :"taskName",
+"dueDate" : "22-12-2023",
+"case" : "case" (one to many relation),
+"priority" : "priority" (@OneToMany)
+"description" : "SOme Text",
+"reminderDate" :  "2days",
+@Enum
+"status" : "IN QUEUE (default)" (IN PROGRESS,NEED REVISION,  COMPLETED)
+}
+
+
+HTTP GET /task
+
+request
+Header : Authorization
+
+response
+[
+
+
+     {
+
+        "taskName" : "Assosite",
+        "description": "The entire firm so everyone can",
+        "userImg" :
+
+     }
+
+
+
+]
+
